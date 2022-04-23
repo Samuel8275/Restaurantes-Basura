@@ -1,0 +1,106 @@
+
+/* Normalize */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav-Bar */
+
+.content-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 6em;
+    align-items: center;
+}
+
+.navbar-img-container {
+    display: flex;
+}
+
+.navbar-img-container img {
+    width: 3.8em;
+}
+
+.navbar-links-list {
+    display: flex;
+    justify-content: space-between;
+    width: 60em;
+    margin: 1em 0;
+}
+
+.navbar-links-list-li {
+    display: flex;
+}
+
+.navbar-links-list-li li {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.navbars {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    justify-content: center;
+}
+
+.navbars ul {
+    list-style: none;
+}
+
+.navbars ul a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Nav-Bar-Secondary */
+
+.secondary-navbar {
+    display: flex;
+    cursor: pointer;
+}
+
+.secondary-navbar li {
+    margin-left: 1em;
+}
+
+.secondary-navbar-list {
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.secondary-navbar-list-li:hover .secondary-navbar-list {
+    visibility: visible;
+    display: grid;
+}
+
+/* Nav-Bar-Btn*/
+
+.btn-pide {
+    border: none;
+    padding: .8em 2em;
+    background-color: #ffbc0e;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
